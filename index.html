@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Krub:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+
+      .icon1{
+        margin-right: 0px;
+        margin-top: 100px;
+        margin-left: 140px;
+      }
+
+      .icon1 .text h1{
+        font-family: 'Alata';
+        font-weight: bold;
+        margin-top: 60px;  
+      }
+
+      .icon1 .img{
+        margin-left: 70px
+      }
+
+      .icon2{
+        margin-right: 0px;
+        margin-top: 150px;
+        margin-left: 140px;
+      }
+
+      .icon2 .text h1{
+        font-family: 'Alata';
+        font-weight: bold;
+        margin-top: 60px;  
+      }
+
+      .icon2 .img{
+        margin-left: 0px;
+      }
+
+      body{
+        background-color:   hsl(0, 0%, 95%);
+      }
+
+     .jumboatas{
+      text-align: center;
+      background-image: url("bg1.jpg");
+      background-size: cover;
+      padding: 280px;
+     }
+
+     .jumboatas .display-4{
+      color: white;
+      font-family: 'Alata';
+      font-weight: bold;
+     }
+
+     .jumboatas .lead {
+      color: white;
+      font-family: 'Segoe UI'
+     }
+
+     .jumbopara{
+      background-image: url("bgpara.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: 100px;
+      padding-top: 80px;
+      padding-bottom: 80px;
+     }
+
+     .jumbopara .display-4{
+      color: white;
+      font-family: 'Alata';
+      text-shadow: 3px 2px 1px rgba(150, 150, 150, 1);
+     }
+
+     .navbar-nav{
+      text-align: center;
+     }
+
+     .nav-link{
+      margin-right: 20px;
+     }
+
+     .nav-link:hover::after{
+      content: "";
+      display: block;
+      border-bottom: 2px solid white;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+      animation-name: ex;
+      animation-duration: 0.3s;
+      animation-iteration-count: 1;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     @keyframes ex{
+      0%   {width: 0%;}
+      100% {width: 100%;}
+     }
+
+     @media (max-width: 991px){
+      .navbar-nav.ml-auto{
+        background: rgba(0, 0, 0, 0.8 );
+      }
+
+      .column-row .column-33 .card1{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+     }
+
+     @media (min-width: 1290px){
+      .column-row .column-33{
+        float: left;
+        margin-left: 80px;
+      }
+
+     }
+
+     /* Mobile View */
+
+     @media (max-width: 600px){
+      .jumboatas .display-4{
+        margin-left: 50px
+      }
+
+      .jumboatas .lead{
+        margin-left: 50px
+      }
+
+      .jumboatas{
+        padding-left: 100px;
+      }
+
+      .icon1{
+        margin-left: 10px
+      }
+
+      .icon1 .img{
+        margin-left: 10px;
+        margin-top: 40px;
+
+     }
+
+     .icon1 .text h1{
+      margin-top: 0px;
+     }
+
+     .icon2{
+        margin-left: 10px
+      }
+
+      .icon2 .img{
+        margin-left: 10px;
+        margin-top: -40px;
+
+     }
+
+     .icon2 .text h1{
+      margin-top: 30px;
+     }
+
+   }
+
+   @media (max-width: 800px){
+      .column-row .column-33{
+      margin-left: 100px;
+      margin-right: 100px;
+     }
+   }
+
+   /* ----------------------------------------------------------------------------*/
+
+     .navbar-dark.scrolled{
+      background: #002b47 !important;
+      transition: 300ms ease;
+      padding-top: 20px;
+     }
+
+     .navbar-dark{
+      transition: 300ms ease;
+     }
+
+     /* CARD */
+
+     .column-row .column-33{
+      background: white;
+      box-shadow: 0px 2px 17px -3px rgba(0,42,87,0.54);
+      margin-top: 10px;
+      margin-bottom: 100px;
+      border-radius: 40px;
+      margin-left: 60px;
+     }
+
+     .column-row .column-33 .card1{
+      padding: 40px;
+      text-align: center;
+      display: block;
+     }
+
+     /* MOBILE VERY SMALL VIEW */
+
+     @media (max-width: 399px){
+      .navbar .container .navbar-brand img{
+        width: 200px;
+      }
+
+      .jumboatas .display-4{
+      margin-left: -20px;
+     }
+
+     .jumboatas .lead {
+      margin-left: -20px;
+     }
+
+     .jumbopara{
+      margin-right: -20px;
+     }
+
+     .column-row .column-33{
+      margin-left: 20px;
+      margin-right: 60px;
+     }
+   }
+
+   .footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 0px;
+    background-color: #0f3675;
+    }
+
+
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class='container'>
+  <a class="navbar-brand" href="#"><img src="logo2.png" width="300px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Project</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid jumboatas">
+  <div class="container">
+    <h1 class="display-4">Mau memulai belajar coding?</h1>
+    <p class="lead">Cocok untuk umur 12-16 tahun</p>
+  </div>
+</div>
+
+<div class="row icon1">
+  <div class="col-lg text">
+    <h1>Belajar coding dari basic nya</h1>
+    <p>Buat kamu yang belum pernah belajar coding sama sekali, bisa memulai disini.</p>
+  </div>
+  <div class="col-lg img">
+    <img src="iconstairn1.png" alt="icon1" class="img-fluid" width="400px">
+  </div>
+</div>
+
+<div class="row icon2">
+  <div class="col-lg img">
+    <img src="icon2.png" alt="icon2" class="img-fluid" width="430px">
+  </div>
+  <div class="col-lg text">
+    <h1>Bahasa nya mudah dipahami dan ditangkap</h1>
+    <p>Buat kamu yang masih SD-SMP ingin memulai belajar coding.</p>
+  </div>
+</div>
+
+<div class="row icon1">
+  <div class="col-lg text" style="margin-top: 100px;">
+    <h1>Harga sangat terjangkau</h1>
+    <p>Dapatkan kelas coding senilai ratusan ribu dengan harga yang lebih murah.</p>
+  </div>
+  <div class="col-lg img">
+    <img src="dompet.png" alt="icon1" class="img-fluid" width="350px">
+  </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid jumbopara">
+  <div class="container">
+    <h1 class="display-4">Project</h1>
+    <button type="button" class="btn btn-primary">Lihat Project</button>
+  </div>
+</div>
+
+<center><h1 style=" font-family: 'Alata'; margin-top: 100px; margin-bottom: 80px;"> Courses </h1></center>
+
+<div class="column-row">
+  <div class="column-33">
+    <div class="card1">
+      <div class="img2" style="margin-bottom: 30px;"><img src="css.png" width="150px"></div>
+      <h3>HTML Dan CSS Beginner</h3>
+      <p>Belajar membuat website, untuk pemula</p>
+      <!-- <h1 style="font-family: Alata; background-color: lightgrey; margin-top: 20px; margin-bottom: 20px;"> Rp. 30.000,- </h1> -->
+      <div class="buttons">
+        <a href ="">
+          <button type="button" class="btn btn-primary">Daftar</button>
+        </a>
+      </div>
+      <div id="accordion">
+
+  <div class="card" style="margin-top: 30px;">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Apa saja yang akan saya pelajari?
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 10px;">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Bagaimana teknis kelas berlangsung?
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <ol>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</div>
+  <div class="column-33">
+    <div class="card1">
+      <div class="img2" style="margin-bottom: 30px;"><img src="python.png" width="83px"></div>
+      <h3>Python Beginner</h3>
+      <p>Belajar logika pemrograman python, <br>untuk beginner</p>
+      <div class="buttons">
+        <a href ="">
+          <button type="button" class="btn btn-primary">Coming Soon</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column-33">
+    <div class="card1">
+      <div class="img2" style="margin-bottom: 30px;"><img src="js.png" width="73px"></div>
+      <h3>Javascript Beginner</h3>
+      <p>For very beginner</p>
+      <div class="buttons">
+        <a href ="">
+          <button type="button" class="btn btn-primary">Coming Soon</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<div class="footer">
+  <div class="bwh" style="color: white;">
+    <h2>Contact</h2>
+    <p>mulaikoding@gmail.com</p>
+  </div>
+  <div class="bwh2" style="margin-top: 90px; text-align: center; color: white;">
+    <p>Designed by mulaikoding</p>
+  </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      $(window).scroll(function(){
+
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+
+      });
+
+    </script>
+  </body>
+</html>
